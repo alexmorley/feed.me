@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "feed.me",
+  "description": "Make your feeds work for you.",
+  "homepage_url": "https://github.com/alexmorley/feed.me",
+  "version": "0.0.0",
+  "browser_action" : {
+    "default_popup": "popup.html",
+    "default_title": "feed.me"
+  },
+  "icons": {
+    "16": "img/icon.svg",
+    "48": "img/icon.svg",
+    "96": "img/icon.svg"
+  },
+  "permissions": [
+    "storage",
+    "cookies"
+  ]
+}
