@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter UI'; 
+  font-family: "Inter UI";
 }
 
 html {
@@ -22,7 +22,7 @@ body {
 }
 
 #tabs > div {
-  background-color: rgba(50,50,50,255);
+  background-color: rgba(50, 50, 50, 255);
   border-color: black;
   border-width: 2px;
   min-width: 40px;
@@ -31,7 +31,8 @@ body {
   display: inline-block;
 }
 
-#tabs > div > img, object {
+#tabs > div > img,
+object {
   max-height: 25px;
   text-align: center;
   display: block;
@@ -43,7 +44,10 @@ body {
   padding: 10px;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 7px;
 }
 
@@ -81,7 +85,7 @@ input[type="checkbox"] + label:before {
   display: inline-block;
   font: 16px/1em sans-serif;
   height: 16px;
-  margin: 0 .25em 0 0;
+  margin: 0 0.25em 0 0;
   padding: 0;
   vertical-align: top;
   width: 16px;
@@ -97,5 +101,5 @@ input[type="checkbox"]:checked + label:after {
 }
 
 input[type="checkbox"]:focus + label::before {
-    outline: rgb(59, 153, 252) auto 5px;
+  outline: rgb(59, 153, 252) auto 5px;
 }
