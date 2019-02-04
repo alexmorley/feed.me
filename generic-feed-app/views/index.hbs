@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{#each posts}}
+  <p>
+  <b>{{this.username}}:</b>
+  <em>{{this.text}}</em>
+  </p>
+  <img src=/data/{{this.media}} alt={{this.media}}>
+{{/each}}
